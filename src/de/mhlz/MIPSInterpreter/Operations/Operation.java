@@ -74,7 +74,7 @@ public abstract class Operation {
 		int paramStart = 0;
 		int i = 0;
 		for(Character c : opline.toCharArray()) {
-			if(c == ' ') {
+			if(c == ' ' || c == '\t') {
 				paramStart = i + 1;
 				break;
 			}
