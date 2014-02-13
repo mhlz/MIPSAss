@@ -66,6 +66,8 @@ public abstract class ROperation extends Operation {
 			return new SRLVOperation(interpreter, rs, rt, rd, shamt);
 		} else if(code.equals("sub")) {
 			return new SubOperation(interpreter, rs, rt, rd, shamt);
+		} else if(code.equals("subu")) {
+			return new SubUOperation(interpreter, rs, rt, rd, shamt);
 		} else if(code.equals("xor")) {
 			return new XOrOperation(interpreter, rs, rt, rd, shamt);
 		} else {

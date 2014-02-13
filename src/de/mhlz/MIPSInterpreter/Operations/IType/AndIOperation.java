@@ -13,8 +13,7 @@ public class AndIOperation extends IOperation {
 
 	@Override
 	public boolean execute() {
-		int temp = (int)(imm << 16);
-		temp = temp >>> 16;
+		int temp = imm;
 		i.setReg(rt, i.getReg(rs) & temp);
 
 		return false;

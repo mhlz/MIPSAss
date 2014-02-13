@@ -253,7 +253,14 @@ public class Interpreter {
 		if(codeLines.length <= PC || PC < 0) {
 			return ":END:";
 		}
-		return codeLines[PC];
+		int pos = PC;
+		while(codeLines[PC].equals("")) {
+			pos++;
+			if(codeLines.length <= pos || pos < 0) {
+				return ":END:";
+			}
+		}
+		return codeLines[pos];
 	}
 
 	public Integer[] getRegisters() {
@@ -272,7 +279,7 @@ public class Interpreter {
 		String ret = "PC: " + PC + "\n";
 		int i = 0;
 		for(Integer reg : registers) {
-			ret += regNames[i] + ": " + Integer.toBinaryString(reg) + " (" + reg + ")\n";
+			ret += regNames[i] + ": " + String.format("%32s", Integer.toBinaryString(reg)).replace(' ', '0') + " (" + reg + ")\n";
 			i++;
 		}
 

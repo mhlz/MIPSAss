@@ -29,6 +29,7 @@ public abstract class Operation {
 			"srl",
 			"srlv",
 			"sub",
+			"subu",
 			"xor"
 	};
 
