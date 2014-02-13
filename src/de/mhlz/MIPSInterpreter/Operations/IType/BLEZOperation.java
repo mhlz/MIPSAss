@@ -7,7 +7,7 @@ import de.mhlz.MIPSInterpreter.Operations.IOperation;
  * Created by mischa on 11.02.14.
  */
 public class BLEZOperation extends IOperation {
-	public BLEZOperation(Interpreter i, int rs, int rt, short immediate) {
+	public BLEZOperation(Interpreter i, int rs, int rt, int immediate) {
 		super(i, rs, rt, immediate);
 	}
 

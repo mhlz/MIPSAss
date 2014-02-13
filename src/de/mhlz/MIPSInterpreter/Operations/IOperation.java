@@ -9,12 +9,12 @@ import de.mhlz.MIPSInterpreter.Operations.IType.*;
  */
 public abstract class IOperation extends Operation {
 
-	protected short imm;
+	protected int imm;
 
 	protected int rs;
 	protected int rt;
 
-	public IOperation(Interpreter i, int rs, int rt, short immediate) {
+	public IOperation(Interpreter i, int rs, int rt, int immediate) {
 		super(i);
 
 		this.rs = rs;
@@ -22,7 +22,7 @@ public abstract class IOperation extends Operation {
 		imm = immediate;
 	}
 
-	public static IOperation getOperationFromString(Interpreter interpreter, String code, int rs, int rt, short imm) {
+	public static IOperation getOperationFromString(Interpreter interpreter, String code, int rs, int rt, int imm) {
 		if(rs == -1 || rt == -1) {
 			int reg = Math.min(rs, rt);
 			throw new IllegalRegisterException(Integer.toString(reg), interpreter.getCurrentCompileLineNumber(), interpreter.getCurrentCompileLine());

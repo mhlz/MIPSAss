@@ -77,10 +77,40 @@ public class ConsoleInterpreter {
 			}
 
 			if(interactive) {
+				System.out.println(i);
+				while(true) {
+					System.out.print("Next line: " + i.getCurrentCodeLine() + "\n");
+					System.out.print(">");
+					BufferedReader cmd = new BufferedReader(new InputStreamReader(System.in));
+					String command = cmd.readLine();
+					if(command.startsWith("run")) {
+						String[] params = command.split(" ");
+						if(params.length == 1) {
+							break;
+						} else if(params.length == 2) {
+							try {
+								counter = Integer.parseInt(params[1]);
+							} catch (NumberFormatException e) {
+								counter = 0;
+								if(params[1].equals("all")) {
+									interactive = false;
+									break;
+								} else {
+									continue;
 
+								}
+							}
+							break;
+						}
+					} else if(command.equals("")) {
+						break;
+					}
+				}
 			}
 		}
 
-		System.out.println(i);
+		if(!interactive) {
+			System.out.println(i);
+		}
 	}
 }

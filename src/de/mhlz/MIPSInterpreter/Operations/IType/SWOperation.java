@@ -7,7 +7,7 @@ import de.mhlz.MIPSInterpreter.Operations.IOperation;
  * Created by mischa on 13.02.14.
  */
 public class SWOperation extends IOperation {
-	public SWOperation(Interpreter i, int rs, int rt, short immediate) {
+	public SWOperation(Interpreter i, int rs, int rt, int immediate) {
 		super(i, rs, rt, immediate);
 	}
 

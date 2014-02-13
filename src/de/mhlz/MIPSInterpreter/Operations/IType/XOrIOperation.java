@@ -7,7 +7,7 @@ import de.mhlz.MIPSInterpreter.Operations.IOperation;
  * Created by mischa on 11.02.14.
  */
 public class XOrIOperation extends IOperation {
-	public XOrIOperation(Interpreter i, int rs, int rt, short immediate) {
+	public XOrIOperation(Interpreter i, int rs, int rt, int immediate) {
 		super(i, rs, rt, immediate);
 	}
 

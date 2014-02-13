@@ -250,6 +250,9 @@ public class Interpreter {
 	}
 
 	public String getCurrentCodeLine() {
+		if(codeLines.length <= PC || PC < 0) {
+			return ":END:";
+		}
 		return codeLines[PC];
 	}
 

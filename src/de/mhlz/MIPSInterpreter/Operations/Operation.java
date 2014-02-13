@@ -112,7 +112,7 @@ public abstract class Operation {
 			String params[] = opline.substring(paramStart).split("[,(]");
 			int rs = -1;
 			int rt = -1;
-			short imm = -1;
+			int imm = -1;
 			if(params.length == 2) {
 				if(op.startsWith("l")) {
 					rt = interpreter.getRegisterAddress(params[0].trim());
@@ -134,7 +134,7 @@ public abstract class Operation {
 			} else if(params.length == 3) {
 				rt = interpreter.getRegisterAddress(params[0].trim());
 				rs = interpreter.getRegisterAddress(params[1].trim());
-				imm = Short.parseShort(params[2].trim());
+				imm = Integer.parseInt(params[2].trim());
 			} else {
 				return null;
 			}
