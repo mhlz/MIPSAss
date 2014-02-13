@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MIPSAss:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MIPSAss_jar</output-path>
+    <root id="archive" name="MIPSAss.jar">
+      <element id="module-output" name="MIPSAss" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jansi-1.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
