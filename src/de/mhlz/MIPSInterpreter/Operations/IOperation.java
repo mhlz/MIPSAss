@@ -23,10 +23,6 @@ public abstract class IOperation extends Operation {
 	}
 
 	public static IOperation getOperationFromString(Interpreter interpreter, String code, int rs, int rt, int imm) {
-		if(rs == -1 || rt == -1) {
-			int reg = Math.min(rs, rt);
-			throw new IllegalRegisterException(Integer.toString(reg), interpreter.getCurrentCompileLineNumber(), interpreter.getCurrentCompileLine());
-		}
 		if(code.equals("addi")) {
 			return new AddIOperation(interpreter, rs, rt, imm);
 		} else if(code.equals("andi")) {
