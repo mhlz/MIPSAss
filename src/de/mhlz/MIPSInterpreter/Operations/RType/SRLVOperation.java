@@ -13,7 +13,7 @@ public class SRLVOperation extends ROperation {
 
 	@Override
 	public boolean execute() {
-		i.setReg(rd, i.getReg(rt) >>> i.getReg(rd));
+		i.setReg(rd, i.getReg(rs) >>> i.getReg(rt));
 
 		return false;
 	}

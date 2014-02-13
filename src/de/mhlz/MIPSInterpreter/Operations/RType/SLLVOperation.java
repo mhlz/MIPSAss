@@ -13,7 +13,7 @@ public class SLLVOperation extends ROperation {
 
 	@Override
 	public boolean execute() {
-		i.setReg(rd, i.getReg(rt) << i.getReg(rs));
+		i.setReg(rd, i.getReg(rs) << i.getReg(rt));
 
 		return false;
 	}

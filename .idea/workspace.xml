@@ -6,8 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fa45dca-1114-43b6-a73a-da2e2c16164c" name="Default" comment="Fixed a bug that would lead to not always the correct line of code being dislpayed">
+    <list default="true" id="1fa45dca-1114-43b6-a73a-da2e2c16164c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Interpreter.java" afterPath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Interpreter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java" afterPath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java" afterPath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java" afterPath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java" afterPath="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MIPSAss.iws" />
@@ -72,61 +76,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Interpreter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Interpreter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="9" selection-start="4969" selection-end="4969" vertical-scroll-proportion="0.40647483" vertical-offset="3860" max-vertical-offset="4845">
+            <state line="37" column="35" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="3229" max-vertical-offset="4879">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3109#3117#0" expanded="true" />
+                <element signature="e#4705#4706#0" expanded="true" />
+                <element signature="e#4728#4729#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndIOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/AndIOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XOrIOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/XOrIOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/Operation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="19" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubUOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ROperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/ROperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1411">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,16 +93,43 @@
       <file leaf-file-name="ConsoleInterpreter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/ConsoleInterpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="2074">
+            <state line="81" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BLEZOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/BLEZOperation.java">
+      <file leaf-file-name="SRLVOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="15" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRLOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="29" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRAVOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -152,16 +138,36 @@
       <file leaf-file-name="SLLVOperation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="15" column="48" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SLLOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLOperation.java">
+      <file leaf-file-name="Operation.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="121" column="0" selection-start="2767" selection-end="2767" vertical-scroll-proportion="1.4616293" vertical-offset="785" max-vertical-offset="2652">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubUOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="578">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DivOperation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/DivOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -184,12 +190,9 @@
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/MTHIOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/XOrOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubOperation.java" />
-        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLOperation.java" />
-        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLTOperation.java" />
-        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/OrOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/NorOperation.java" />
@@ -211,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Exceptions/RegisterAddressException.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Exceptions/MIPSCompileTimeException.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Exceptions/IllegalRegisterException.java" />
-        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/AddIOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/BEQOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/BEQZOperation.java" />
@@ -227,10 +229,14 @@
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/XOrIOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/ConsoleInterpreter.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/AndIOperation.java" />
-        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/ROperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/Operation.java" />
+        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IOperation.java" />
+        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java" />
+        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java" />
+        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java" />
         <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java" />
       </list>
     </option>
   </component>
@@ -686,7 +692,19 @@
       <created>1392307077714</created>
       <updated>1392307077714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed a bug that would lead to not always the correct line of code being dislpayed">
+      <created>1392307502483</created>
+      <updated>1392307502483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed tabs after commands">
+      <created>1392307864038</created>
+      <updated>1392307864038</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed checking for illegal registers">
+      <created>1392308303035</created>
+      <updated>1392308303035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -700,7 +718,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944071" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54809844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -710,7 +728,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25234374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -733,7 +751,9 @@
     <MESSAGE value="Changed immediate operations so that they can accept ints.&#10;Implemented interactive mode '-i'&#10;" />
     <MESSAGE value="Enhanced interactive mode and added subu method" />
     <MESSAGE value="Fixed a bug that would lead to not always the correct line of code being dislpayed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug that would lead to not always the correct line of code being dislpayed" />
+    <MESSAGE value="Fixed tabs after commands" />
+    <MESSAGE value="Fixed checking for illegal registers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed checking for illegal registers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -743,27 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/OrOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/NorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -845,26 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/MultOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/DivOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,13 +934,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/ConsoleInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/AndIOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="442">
@@ -1063,32 +1032,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/ROperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="0" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="19" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
@@ -1102,18 +1048,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IType/BLEZOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="11" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/IOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRLVOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SRAVOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SLLVOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/ConsoleInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/SubUOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/RType/DivOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="9" selection-start="4969" selection-end="4969" vertical-scroll-proportion="0.40647483" vertical-offset="3860" max-vertical-offset="4845">
+        <state line="37" column="35" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="3229" max-vertical-offset="4879">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3109#3117#0" expanded="true" />
+            <element signature="e#4705#4706#0" expanded="true" />
+            <element signature="e#4728#4729#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/mhlz/MIPSInterpreter/Operations/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="2767" selection-end="2767" vertical-scroll-proportion="1.4616293" vertical-offset="785" max-vertical-offset="2652">
+          <folding />
         </state>
       </provider>
     </entry>

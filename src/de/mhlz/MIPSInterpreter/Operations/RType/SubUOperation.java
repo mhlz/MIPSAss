@@ -13,7 +13,15 @@ public class SubUOperation extends ROperation {
 
 	@Override
 	public boolean execute() {
-		i.setReg(rd, Math.abs(i.getReg(rs)) - Math.abs(i.getReg(rt)));
+		long t1 = i.getReg(rs);
+		long t2 = i.getReg(rt);
+		if(t1 < 0) {
+			t1 = -t1;
+		}
+		if(t2 < 0) {
+			t2 = -t2;
+		}
+		i.setReg(rd, (int)t1 - (int)t2);
 
 		return false;
 	}

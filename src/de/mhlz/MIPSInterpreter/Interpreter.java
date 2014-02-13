@@ -254,7 +254,7 @@ public class Interpreter {
 			return ":END:";
 		}
 		int pos = PC;
-		while(operations.get(PC) == null) {
+		while(operations.get(pos) == null) {
 			pos++;
 			if(codeLines.length <= pos || pos < 0) {
 				return ":END:";
